@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times"onclick="hideMenu()"></i>
+                    <ul>
+                       <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html"></a>COURSE</li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Certicate & Online Program For 2026</h1>
+        </section> 
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/certificate.jpg.jpg">
+                    <h2>Our Certificate & Online Program For 2026</h2>
+                    <p>Our university is proud to announce our comprehensive certificate and online program for the year 2026. This program is designed to provide students with the flexibility to learn at their own pace while gaining valuable skills and knowledge in their chosen field. Our online courses are taught by experienced faculty members and industry professionals, ensuring that students receive a high-quality education that is both practical and relevant to today's job market.</p>
+                    <br>
+                    <p>Whether you're looking to enhance your career prospects, explore a new area of interest, or gain specialized knowledge, our certificate and online program for 2026 offers a wide range of courses to meet your needs. Join us and take the next step in your educational journey with our innovative and accessible learning opportunities.</p>
+                    <br>
+                    <p>Our certificate and online program for 2026 is designed to provide students with the skills and knowledge they need to succeed in their chosen field. With a focus on practical, hands-on learning, our courses are taught by experienced faculty members and industry professionals who bring real-world expertise to the classroom. Students will have access to a wide range of resources and support services, including online forums, virtual labs, and one-on-one mentoring, to help them achieve their academic and career goals.</p>
+                    <br>
+                    <p>In addition to flexible scheduling, our digital campus infrastructure ensures that every student gets direct access to industry-standard software, interactive study materials, and real-time collaboration tools. Our dedicated academic advisors work closely with you to help structure your learning schedule, track your progress, and ensure you remain on the path toward achieving your professional milestones.</p>
+                    <br>
+                    <p>We believe that quality education should be accessible to everyone, everywhere. By blending rigorous academic standards with real-world application, our 2026 online curriculum equips you to stand out in today’s competitive global job market. Take control of your career trajectory today and become part of a thriving global community of continuous learners.</p>
+                    <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+                </div>
+
+                
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>23</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>32</span>
+                    </div>
+                    <div>
+                        <span>Machine Learning</span>
+                        <span>39</span>
+                    </div>
+                    <div>
+                        <span>Computer Science</span>
+                        <span>25</span>
+                    </div>
+                    <div>
+                        <span>AutoCAD</span>
+                        <span>40</span>
+                    </div>
+                    <div>
+                        <span>Journalism</span>
+                        <span>27</span>
+                    </div>
+                    <div>
+                        <span>Commerce</span>
+                        <span>45</span>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>We are a leading university committed to providing high-quality education and fostering a diverse and inclusive learning environment. <br>Our mission is to empower students to achieve their full potential and make a positive impact in the world.</p>
+            <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </div>
+            <p>Made with <i class="fas fa-heart" aria-hidden="true"></i> by University Website</p>       
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-210px";
+            }
+        </script>    
+    </body>
+</html>
